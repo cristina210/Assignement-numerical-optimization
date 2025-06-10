@@ -152,7 +152,7 @@ u_bound = x1_rosenbrock + 1;
 M_ten_initial_points = l_bound + (u_bound - l_bound) .* rand(dim, 10);
 starting_points = [x1_rosenbrock, M_ten_initial_points];
 
-prinf_function(x1_opt, f1_ros)
+print_function(x1_opt, f1_ros)
 
 rho = 0.9;
 tolgrad = 10^(-2);

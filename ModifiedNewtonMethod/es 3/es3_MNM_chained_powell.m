@@ -321,7 +321,7 @@ u_bound = x3_powell + 1;
 M_ten_initial_points = l_bound + (u_bound - l_bound) .* rand(dim, 10);
 starting_points = [x3_powell, M_ten_initial_points];
 
-prinf_function(x3_opt, f3_powell)
+print_function(x3_opt, f3_powell)
 
 rho = 0.9;
 tolgrad = 10^(-3);

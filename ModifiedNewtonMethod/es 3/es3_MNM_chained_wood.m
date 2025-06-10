@@ -272,9 +272,8 @@ l_bound = x2_wood - 1;
 u_bound = x2_wood + 1; 
 M_ten_initial_points = l_bound + (u_bound - l_bound) .* rand(dim, 10);
 starting_points = [x2_wood, M_ten_initial_points];
-h = 0; 
 
-prinf_function(x2_opt, f2_wood)
+print_function(x2_opt, f2_wood)
 
 % obs: rho = 0.9 and c1 = 10^(-4), btmax = 50 -> changes too slow
 % obs: rho = 0.9 and c1 = 10^(-4), btmax = 100 -> changes too slow

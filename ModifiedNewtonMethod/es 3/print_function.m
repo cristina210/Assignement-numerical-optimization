@@ -1,9 +1,9 @@
-function prinf_function(x_opt, f)
+function print_function(x_opt, f)
     i = 1;  % index 1^st variable to vary
     j = 2;  % index 2^nd variable to vary
 
     % Meshgrid in the neighbourhood of x_opt 
-    delta = 0.5;
+    delta = 1;
     step = 0.1;
     x1 = x_opt(i);
     x2 = x_opt(j);
