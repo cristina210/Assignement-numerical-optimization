@@ -34,7 +34,7 @@ The implementations are applied to the **Rosenbrock function** and additional be
 ### Dimension of space:
 - Nelder-Mead: 2, 10, 25, 50
 - Modified Newton: 2, 10^3, 10^4, 10^5
-## Initial points:
+### Initial points:
 - ten initial random starting point
 
 ---
